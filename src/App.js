@@ -5,6 +5,7 @@ import About from "./components/about/About";
 import Technologies from "./components/technologies/Technologies";
 import Education from "./components/education/Education";
 import Projects from "./components/projects/Projects";
+// import Certificates from "./components/certificates/Certificate";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 
@@ -17,6 +18,7 @@ const App = () => {
       <Technologies />
       <Education />
       <Projects />
+      {/* <Certificates /> */}
       <Contact />
       <Footer />
     </>

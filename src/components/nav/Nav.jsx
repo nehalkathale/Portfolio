@@ -7,6 +7,7 @@ import { GiSkills } from "react-icons/gi";
 import { BiMessageSquareDetail } from "react-icons/bi";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 import { MdWorkOutline } from "react-icons/md";
+// import { GrCertificate } from "react-icons/gr";
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
   return (
@@ -46,6 +47,13 @@ const Nav = () => {
       >
         <AiOutlineFundProjectionScreen />
       </a>
+      {/* <a
+        href="#certificates"
+        onClick={() => setActiveNav("#certificates")}
+        className={activeNav === "#certificates" ? "active" : ""}
+      >
+        <GrCertificate />
+      </a> */}
       <a
         href="#contact"
         onClick={() => setActiveNav("#contact")}
