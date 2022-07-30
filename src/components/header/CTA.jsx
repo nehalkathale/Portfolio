@@ -1,12 +1,15 @@
-import React from 'react'
-import CV from'../../assests/Nehal_Kathale_Resume.pdf'
+import React from "react";
 const CTA = () => {
   return (
-    <div className='cta'>
-        <a href={CV} className='btn'>Download CV</a>
-        <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+    <div className="cta">
+      <a href="#about" className="btn">
+        About Me
+      </a>
+      <a href="#contact" className="btn btn-primary">
+        Let's Talk
+      </a>
     </div>
-  )
-}
+  );
+};
 
-export default CTA
+export default CTA;
