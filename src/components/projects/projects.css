@@ -13,8 +13,9 @@
 }
 
 .project__item:hover{
-    background-color: var(--color-primary-variant);
     background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
 }
 
 .project__item__image{

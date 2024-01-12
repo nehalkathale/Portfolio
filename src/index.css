@@ -10,10 +10,10 @@
 }
 
 :root {
-    --color-bg: #1f1f38;
-    --color-bg-variant: #212c5a;
-    --color-primary: #3aace4;
-    --color-primary-variant: rgba(77,181,255,0.4);
+    --color-bg: #442711;
+    --color-bg-variant: #89411f ;
+    --color-primary: #d7af9b;
+    --color-primary-variant: #fff;
     --color-white: #fff;
     --color-light: rgba(255,255,255,0.6);
     --transition: all 400ms ease;
@@ -30,7 +30,7 @@ html{
     display: none;
 }
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: Proxima Nova;
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
@@ -57,14 +57,18 @@ section {
     height: max-content;
 }
 
-section > h2, 
+section > h1, 
 section > h5{
     text-align: center;
     color: var(--color-light);
 }
 
-section > h2{
-    color: var(--color-primary);
+section >h3{
+    color: var(--color-white);
+}
+
+section > h1{
+    color: var(--color-white);
     margin-bottom: 3rem;
 }
 
@@ -122,7 +126,7 @@ img{
     .container{
         width: var(--container-width-sm);
     }
-    section >  h2{
+    section >  h1{
         margin-bottom: 2rem;
     }
 }
