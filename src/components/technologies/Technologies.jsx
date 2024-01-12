@@ -1,18 +1,6 @@
 import React from 'react'
 import './technologies.css'
-import {AiOutlineHtml5} from 'react-icons/ai'
-import {TbBrandCss3} from 'react-icons/tb'
-import {TbBrandJavascript} from 'react-icons/tb'
-import {BsBootstrap} from 'react-icons/bs'
-import {RiGithubFill, RiGitlabFill, RiReactjsLine} from 'react-icons/ri'
-import {FaAngular, FaEmber, FaReact} from 'react-icons/fa'
-import {FaJava} from 'react-icons/fa'
-import {FaNodeJs} from 'react-icons/fa'
 import {SiAngular, SiApachemaven, SiBitbucket, SiBootstrap, SiConfluence, SiCss3, SiDatadog, SiDocker, SiEmberdotjs, SiGithub, SiGitlab, SiHtml5, SiJava, SiJavascript, SiJenkins, SiJira, SiKibana, SiKubernetes, SiMongodb, SiNodedotjs, SiPostman, SiReact, SiSpring, SiSpringboot, SiSwagger, SiTypescript} from 'react-icons/si'
-import {GrMysql} from 'react-icons/gr'
-import {TbBrandPython} from 'react-icons/tb'
-import {RiGitCommitLine} from 'react-icons/ri'
-
 const Technologies = () => {
   return (
     <section id="technologies">
