@@ -41,16 +41,21 @@ header{
     background: var(--color-primary);
 }
 
-.profile-picture{
-    background: linear-gradient(black,transparent);
-    width: 22rem;
-    height: 30rem;
+.profile-picture {
+    width: 30rem; /* Set both width and height to the same value */
+    height: 30rem; /* Set both width and height to the same value */
     position: absolute;
-    left: calc(50% - 11rem);
-    margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
+    left: calc(50% - 15rem);
+    margin-top: 3rem;
+    border-radius: 50%;
     overflow: hidden;
-    padding: 5rem;
+}
+
+.profile-picture img {
+    width: 95%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%; /* This is for older browsers that don't support object-fit well */
 }
 
 .scroll__down{
@@ -67,6 +72,12 @@ header{
     display: flex;
     border: 1px solid transparent;
     color: var(--color-white)
+}
+.font_size_3{
+    font-size: 2rem;
+}
+.font_size_8{
+    font-size: 4rem;
 }
 
 @media screen and (max-width: 1024px) {

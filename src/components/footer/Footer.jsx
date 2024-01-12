@@ -8,9 +8,6 @@ import { AiFillGithub } from "react-icons/ai";
 const Footer = () => {
   return (
     <footer>
-      <a href="#home" className="footer__logo">
-        Nehal
-      </a>
       <ul className="permalinks">
         <li>
           <a href="#home">Home</a>

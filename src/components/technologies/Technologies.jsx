@@ -1,110 +1,213 @@
 import React from 'react'
 import './technologies.css'
-import {AiOutlineHtml5} from 'react-icons/ai'
-import {TbBrandCss3} from 'react-icons/tb'
-import {TbBrandJavascript} from 'react-icons/tb'
-import {BsBootstrap} from 'react-icons/bs'
-import {RiReactjsLine} from 'react-icons/ri'
-import {FaEmber} from 'react-icons/fa'
-import {FaJava} from 'react-icons/fa'
-import {FaNodeJs} from 'react-icons/fa'
-import {SiMongodb} from 'react-icons/si'
-import {GrMysql} from 'react-icons/gr'
-import {TbBrandPython} from 'react-icons/tb'
-
+import {SiAngular, SiApachemaven, SiBitbucket, SiBootstrap, SiConfluence, SiCss3, SiDatadog, SiDocker, SiEmberdotjs, SiGithub, SiGitlab, SiHtml5, SiJava, SiJavascript, SiJenkins, SiJira, SiKibana, SiKubernetes, SiMongodb, SiNodedotjs, SiPostman, SiReact, SiSpring, SiSpringboot, SiSwagger, SiTypescript} from 'react-icons/si'
 const Technologies = () => {
   return (
     <section id="technologies">
-      <h5>Skills I have</h5>
-      <h2>My Skills</h2>
+      <h1>Skills I have</h1>
       <div className="container technologies__container">
         <div className="technologies__frontend">
-          <h3>Frontend Development</h3>
+          <h3>Programming Languages</h3>
           <div className="technologies__content">
-            <article className='technologies__details'>
-              <AiOutlineHtml5 className='technologies__details__icon'/>
+          <article className='technologies__details'>
+              <SiJava className='technologies__details__icon'/>
               <div>
-                <h4>HTML</h4>
+                <h4>Java</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='technologies__details'>
-              <TbBrandJavascript className='technologies__details__icon'/>
+              <SiJavascript className='technologies__details__icon'/>
               <div>
                 <h4>JavaScript</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='technologies__details'>
-              <TbBrandCss3 className='technologies__details__icon'/>
+              <SiTypescript className='technologies__details__icon'/>
+              <div>
+                <h4>TypeScript</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+            <article className='technologies__details'>
+              <SiHtml5 className='technologies__details__icon'/>
+              <div>
+                <h4>HTML</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+            
+            <article className='technologies__details'>
+              <SiCss3 className='technologies__details__icon'/>
               <div>
                 <h4>CSS</h4>
-                <small className='text-light'>Intermediate</small>
+                <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='technologies__details'>
-              <BsBootstrap className='technologies__details__icon'/>
+              <SiBootstrap className='technologies__details__icon'/>
               <div>
                 <h4>Bootstrap</h4>
-                <small className='text-light'>Intermediate</small>
-              </div>
-            </article>
-            <article className='technologies__details'>
-              <RiReactjsLine className='technologies__details__icon'/>
-              <div>
-                <h4>React</h4>
-                <small className='text-light'>Intermediate</small>
-              </div>
-            </article>
-            <article className='technologies__details'>
-              <FaEmber className='technologies__details__icon'/>
-              <div>
-                <h4>Ember.JS</h4>
-                <small className='text-light'>Intermediate</small> 
+                <small className='text-light'>Experienced</small>
               </div>
             </article>
           </div>
         </div>
         <div className="technologies__backend">
-        <h3>Backend Development</h3>
+        <h3>Frameworks</h3>
           <div className="technologies__content">
             <article className='technologies__details'>
-              <FaJava className='technologies__details__icon'/>
+              <SiReact className='technologies__details__icon'/>
               <div>
-                <h4>Java</h4>
+                <h4>React</h4>
                 <small className='text-light'>Experienced</small>
               </div>  
             </article>
             <article className='technologies__details'>
-              <FaNodeJs className='technologies__details__icon'/>
+              <SiAngular className='technologies__details__icon'/>
               <div>
-                <h4>Node JS</h4>
+                <h4>Angular</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='technologies__details'>
-              <SiMongodb className='technologies__details__icon'/>
+              <SiNodedotjs className='technologies__details__icon'/>
               <div>
-                <h4>MongoDB</h4>
+                <h4>NodeJS</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='technologies__details'>
-              <GrMysql className='technologies__details__icon'/>
+              <SiEmberdotjs className='technologies__details__icon'/>
               <div>
-                <h4>MySQL</h4>
+                <h4>EmberJS</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='technologies__details'>
-              <TbBrandPython className='technologies__details__icon'/>
+              <SiSpring className='technologies__details__icon'/>
               <div>
-                <h4>Python</h4>
-                <small className='text-light'>Intermediate</small>
+                <h4>Spring</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+            <article className='technologies__details'>
+              <SiSpringboot className='technologies__details__icon'/>
+              <div>
+                <h4>Spring Boot</h4>
+                <small className='text-light'>Experienced</small>
               </div>
             </article>
           </div>
         </div>
+        </div>
+        <br></br>
+        <div className="container technologies__container">
+        <div className="technologies__frontend">
+          <h3>Deployment Tools</h3>
+          <div className="technologies__content">
+          <article className='technologies__details'>
+              <SiGitlab className='technologies__details__icon'/>
+              <div>
+                <h4>GitLab</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+            <article className='technologies__details'>
+              <SiJenkins className='technologies__details__icon'/>
+              <div>
+                <h4>Jenkins</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+            <article className='technologies__details'>
+              <SiDocker className='technologies__details__icon'/>
+              <div>
+                <h4>Docker</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+            <article className='technologies__details'>
+              <SiKibana className='technologies__details__icon'/>
+              <div>
+                <h4>Kibana</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+            
+            <article className='technologies__details'>
+              <SiDatadog className='technologies__details__icon'/>
+              <div>
+                <h4>DataDog</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+            <article className='technologies__details'>
+              <SiApachemaven className='technologies__details__icon'/>
+              <div>
+                <h4>Maven</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+            
+            <article className='technologies__details'>
+              <SiKubernetes className='technologies__details__icon'/>
+              <div>
+                <h4>Kubernetes</h4>
+                <small className='text-light'>Experienced</small> 
+              </div>
+            </article>
+          </div>
+        </div>
+        <div className="technologies__backend">
+        <h3>Development Tools</h3>
+          <div className="technologies__content">
+            <article className='technologies__details'>
+              <SiJira className='technologies__details__icon'/>
+              <div>
+                <h4>JIRA</h4>
+                <small className='text-light'>Experienced</small>
+              </div>  
+            </article>
+            <article className='technologies__details'>
+              <SiGithub className='technologies__details__icon'/>
+              <div>
+                <h4>GitHub</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+            <article className='technologies__details'>
+              <SiBitbucket className='technologies__details__icon'/>
+              <div>
+                <h4>Bitbucket</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+            <article className='technologies__details'>
+              <SiConfluence className='technologies__details__icon'/>
+              <div>
+                <h4>Confluence</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+            <article className='technologies__details'>
+              <SiPostman className='technologies__details__icon'/>
+              <div>
+                <h4>Postman</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+            <article className='technologies__details'>
+              <SiSwagger className='technologies__details__icon'/>
+              <div>
+                <h4>Swagger</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+          </div>
+        </div>
+
       </div>
     </section>
     

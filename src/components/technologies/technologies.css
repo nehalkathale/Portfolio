@@ -1,6 +1,5 @@
 .technologies__container{
     display: grid;
-    grid-template-columns: 1fr 1fr;
     gap: 2rem;
 }
 
@@ -8,12 +7,12 @@
     background-color: var(--color-bg-variant);
     padding: 2.4rem 5rem;
     border-radius: 2rem;
-    border: 1px solid transparent;
+    border: 1px solid var(--color-white);
     transition: var(--transition);
 }
 
 .technologies__container > div:hover{
-    background: transparent;
+        background: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;
 }
@@ -25,7 +24,7 @@
 
 .technologies__content{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(6, 1fr);;
     row-gap: 2rem;
 }
 
